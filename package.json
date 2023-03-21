@@ -1,0 +1,29 @@
+{
+  "name": "demo_csv_to_pdf",
+  "version": "1.0.0",
+  "description": "demo csv to pdf converter",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "demo",
+    "csv",
+    "pdf",
+    "converter"
+  ],
+  "author": "pieropatron",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "eslint": "^8.29.0",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.6.3",
+    "pdfkit": "^0.13.0"
+  }
+}
