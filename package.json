@@ -4,6 +4,9 @@
   "description": "demo csv to pdf converter",
   "main": "dist/index.js",
   "scripts": {
+    "build": "tsc",
+    "prepare": "tsc",
+    "lint": "eslint ./src --ext .js,.ts,.jsx,.tsx",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
